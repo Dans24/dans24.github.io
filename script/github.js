@@ -26,7 +26,7 @@ function createGitProject(object){
     html += `<div class="card img-thumbnail">`;
     html += `<img src="${defaultImg}" alt="${object.name}" class="img-fluid">`;
     html += `<div class="container p-1 center">`;
-    html += `<a href="${object.url}" target="_black" class="hover-text-green">`;
+    html += `<a href="${object.html_url}" target="_black" class="hover-text-green">`;
     html += `<h4>${object.name}</h4></a>`;
     html += `<p>${object.description}</p>`;
    	html += `</div></div></div>`;
